@@ -1,0 +1,123 @@
+/* CSS  */
+
+    body {
+    	font-family: Tahoma, Geneva, sans-serif;
+    	font-size: 10pt;
+    	color: black;
+    }
+
+	
+	.center { text-align:center; }
+	a:link { color: blue; text-decoration: none; }
+	a:hover { color: green; text-decoration: none; }
+	height: 50px;
+
+
+    #container {
+	  border: 1px solid #666;
+      width: 95%;
+      min-width: 600px;
+      margin: 0px auto;
+    }
+	
+	.right { text-align: right;}
+	
+	#results {
+	  width:500px;
+	  margin: 20px auto;
+	  padding: 20px;
+	  background-color: lightblue;
+	  border-radius: 15px;
+	}
+	
+	.result {
+	  background-color: whitesmoke;
+	  font-size: 1.3em;
+	  padding: 3px 10px;
+	  margin: 3px 0;
+	  border-radius: 7px;
+	}
+
+
+/* --- HEADER --------------------------------------------*/
+    #header {
+      height: 150px;
+	  background-color:  #152310;
+      margin: 0;
+      padding: 0;
+      position: relative;
+    }
+
+    #header h1 {
+      color:  green;
+      font-size: 40px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+      right: 20px;
+      top: 20px;
+	        
+    }
+
+/* --- SIDEBAR -------------------------------------------*/
+    #leftsidebar {
+      width: 180px;
+      float: left;
+      min-height: 300px;
+      padding: 10px;
+      margin: 0;
+	  text-shadow: 0.4px 0.4px;
+
+    }
+
+    #leftsidebar ul {
+      list-style-type: none;
+      padding:0;
+      margin:0;
+    }
+
+    #leftsidebar ul li {
+      background-color: #c2c2a3;
+      border: solid thin #999;
+      height: 20px;
+      margin: 5px 0 0 0;
+      padding: 5px;
+      text-align: right;
+      font-size: 15px;
+    }
+
+    #leftsidebar ul li a {
+      text-decoration: none;
+    }
+
+    #leftsidebar ul li a:hover {
+	    font-weight: 600;
+		}
+
+		
+
+/* --- MAIN ----------------------------------------------*/
+    #main {
+      padding: 2em;
+      margin: 0 0 0 200px;
+      border-left: solid 1px #aaa;
+      line-height: 130%;
+      min-height: 380px;
+    }
+
+
+/* --- FOOTER --------------------------------------------*/
+    #footer {
+      clear: both;
+    	background-color: #E1E1E1;
+    	text-align:center;
+      height: 20px;
+      padding: 10px;
+      margin: 0;
+    }
+
+    #leftfooter {
+      float:left;
+    }
+
+   
